@@ -1,20 +1,86 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#articles">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#newsFromMe">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Schedule</a>
+        </li>
+      </ul>
+      <!--form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form-->
+    </div>
+  </nav>
+</header>
+<main role="main">
+  <div id="articles" class="container">
+      <div class="row">
+          <div class="col-sm-4">
+            <p class="text-center"><strong>Name</strong></p><br>
+              <p>Guitarist and Lead Vocalist</p>
+              <p>Loves long walks on the beach</p>
+              <p>Member since 1988</p>
+          </div>
+          <div class="col-sm-4">
+            <p class="text-center"><strong>Name</strong></p><br>
+            <a href="#demo2" data-toggle="collapse">
+              <img src="bandmember.jpg" class="img-circle person" alt="No Image" width="255" height="255">
+            </a>
+            <div id="demo2" class="collapse">
+              <p>Drummer</p>
+              <p>Loves drummin'</p>
+              <p>Member since 1988</p>
+            </div>
+          </div>
+          <div class="col-sm-4 text-center">
+            <p><strong>Marketing Model</strong></p><br>
+            <a href="#demo3" data-toggle="collapse">
+              <img src="bandmember.jpg" class="img-circle person" alt="No Image" width="255" height="255">
+            </a>
+            <div id="demo3" class="collapse">
+              <p>Bass player</p>
+              <p>Loves math</p>
+              <p>Member since 2005</p>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div id="contact" class="container">
+      <h3>THE BAND</h3>
+      <p><em>We love music!</em></p>
+      <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br>
+      
+  </div>
+  <div id="news">
+    
+  </div>
+  <div id="schedule">
+    
+  </div>
+  <!-- FOOTER -->
+  <footer class="container">
+      <p class="float-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2018 Gökhan Tamkoç, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+
 
